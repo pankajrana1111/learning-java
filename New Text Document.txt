@@ -1,0 +1,3 @@
+class ABC{
+var abc = new Object();
+}
