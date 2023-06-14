@@ -1,10 +1,10 @@
 package com.pankaj;
 public class StudentArray {
     public static void main(String[] args){
-        StudentClass[] students; //declaring a reference of type array or StudentClass
-        students=new StudentClass[10];
-        students[0]=new StudentClass();
-        System.out.println(students[0]);
+        StudentClass[] students={new StudentClass()}; //declaring a reference of type array or StudentClass
+        //students={new StudentClass()};
+        //students[0]=new StudentClass();
+        System.out.println(students[0].name);
         System.out.println(students.length);
     }
 }
